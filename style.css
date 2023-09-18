@@ -75,6 +75,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          text-align: center;
      }
      .icon-container h2{
           padding-left: .75rem;
@@ -280,10 +281,10 @@
      .footer-container{
           background-color: #0B0223;
      }
-     .icon-container{
+     .footer-container{
           padding-top: 126px;
      }
-     .icon-container h2{
+     .footer-container h2{
           color: white;
           text-align: center;
           font-size: 45px;
