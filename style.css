@@ -186,6 +186,33 @@
           width: 342px;
           
      }
+     .overlay{
+          position: relative;
+     }
+     .overlay img{
+          display: block;
+     }
+     .overlay-content{
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          position: absolute;
+          background: rgb(0, 0, 0, 0.6);
+          border-radius: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          opacity: 0;
+          transition: 0.8s;
+     }
+     .overlay-content:hover{
+          opacity: 1;
+     }
+     .overlay h3{
+          margin-top: 1rem;
+     }
 
 
 /* instant play section */
@@ -194,18 +221,13 @@
           text-align: right;
      }
      .instant-play-text{
-          margin-right: 265px;
-         
-          
+          margin-right: 265px;   
      }
      .instant-play-text>h2{
           width: 342px;
      }
      .instant-play-image{
           position: relative;
-     }
-     .instant-play-image > img {
-          width: auto;
      }
      .sticky-image{
           position: absolute;
@@ -238,6 +260,67 @@
      }
      .gamer-image{
           padding: 20px;
+     }
+     .arcade-game{
+          border: 1.5px solid var(--Linear, #FF42A5);
+          background: #FFF;
+          background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+
+     }
+     .arcade-text{
+          font-size: 20px;
+          font-weight: 600;
+
+     }
+
+/* footer Section Started */
+     .footer-container{
+          background-color: #0B0223;
+     }
+     .icon-container{
+          padding-top: 126px;
+     }
+     .icon-container h2{
+          color: white;
+          text-align: center;
+          font-size: 45px;
+          font-weight: 700;
+     }
+     .footer-nav,
+     .social-media-icons,
+     .terms-and-conditions{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 60px;
+          text-transform: capitalize;
+          margin-top: 60px;
+     }
+     .footer-nav h4{
+          color: #FFF;
+          text-align: center;
+          font-size: 18px;
+          font-weight: 600;
+
+     }
+      .terms-and-conditions p,
+     .copyright p{
+          color: rgba(255, 255, 255, 0.60);
+          text-align: center;
+          font-family: Work Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+     }
+     .copyright{
+          text-align: center;
+          margin-top: 28px;
+          padding-bottom: 130px;
      }
 
      
